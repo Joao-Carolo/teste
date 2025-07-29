@@ -3,9 +3,11 @@ body {
     font-size: 20px;
     min-height: 100vh;
 }
+
 #logo {
     height: 15vh;
 }
+
 header {
     display: flex;
     flex-flow: row wrap;
@@ -17,20 +19,24 @@ header {
     height: 17vh;
     position: sticky; top: 0px
 }
+
 .menu {
     display: flex;
     justify-content: space-evenly;
     width: auto;
     min-width: 65vw;
 }
+
 .menu>li {
     list-style-type: none;
 }
+
 .menu>li>a {
     text-decoration: none;
     color: black;
     text-shadow: 3px 3px 5px #212221;
 }
+
 main {
     background-image: url("../imagens/iStock-929930552-1024x683.webp");
     width: 100%;
