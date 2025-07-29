@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-size: 20px;
+}
+#logo{
+    height: 15vh;
+}
+header{
+    display: flex;
+flex-flow: row wrap;
+justify-content: space-around;
+align-items: center;
+background-color: #123456;
+padding: 1rem;
+box-shadow: 3px 3px 5px #212221
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 80vw;
+}
+.menu>li{
+list-style-type: none;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: white;
+    text-shadow: #212221;
+}
