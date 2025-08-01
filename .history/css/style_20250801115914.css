@@ -167,11 +167,6 @@ form:hover .fake-success-msg {
   display: block;
 }
 
-.hamburger,
-#sideMenu {
-  display: none;
-}
-
 /* Ocultar o menu normal em telas pequenas */
 @media (max-width: 750px) {
   .menu {
@@ -181,7 +176,6 @@ form:hover .fake-success-msg {
 
   /* Hamburguer base */
   .hamburger {
-    display: block;
     cursor: pointer;
     width: 30px;
     height: 22px;
@@ -202,8 +196,7 @@ form:hover .fake-success-msg {
   }
 
   /* Menu lateral */
-  #sideMenu {
-    display: block;
+  .side-menu {
     position: fixed;
     top: 0;
     left: -250px;
@@ -211,29 +204,29 @@ form:hover .fake-success-msg {
     height: 100%;
     background-color: #003366;
     color: white;
-    padding-top: 10rem;
+    padding-top: 60px;
     transition: left 0.3s ease-in-out;
     z-index: 1050;
   }
 
-  #sideMenu ul {
+  .side-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  #sideMenu li {
+  .side-menu li {
     padding: 15px 20px;
     border-bottom: 1px solid #004080;
   }
 
-  #sideMenu li a {
+  .side-menu li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
   }
 
-  #sideMenu.open {
+  .side-menu.open {
     left: 0;
   }
 }
